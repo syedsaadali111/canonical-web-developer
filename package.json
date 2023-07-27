@@ -1,0 +1,24 @@
+{
+	"name": "canonical",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"start": "webpack serve --open"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"css-loader": "^6.8.1",
+		"node-sass": "^9.0.0",
+		"sass": "^1.64.1",
+		"sass-loader": "^13.3.2",
+		"style-loader": "^3.3.3",
+		"vanilla-framework": "^4.0.0",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4"
+	}
+}

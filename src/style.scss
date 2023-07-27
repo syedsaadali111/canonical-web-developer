@@ -1,0 +1,36 @@
+@import 'vanilla-framework';
+@include vanilla;
+
+.p-card {
+	border-radius: 0.25rem;
+	&::before {
+		content: '';
+		display: block;
+		height: 0.25rem;
+		background-color: #a77ca0;
+	}
+}
+
+.card-content {
+	padding: 1rem;
+}
+
+.card-label {
+	border-bottom: 1px dotted lightgray;
+	margin-top: 0;
+	margin-bottom: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+.dotted-separator {
+	border-top: dotted 1px lightgray;
+	background-color: transparent;
+}
+
+.post-link:hover {
+	text-decoration: none;
+}
+
+.author-link {
+	color: #0f95a1;
+}
