@@ -20,5 +20,8 @@
 		"vanilla-framework": "^4.0.0",
 		"webpack": "^5.88.2",
 		"webpack-cli": "^5.1.4"
+	},
+	"devDependencies": {
+		"webpack-dev-server": "^4.15.1"
 	}
 }
